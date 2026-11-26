@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const REVIEW = "Strengths: confidence. Weaknesses: 'one small change' x63, each a rewrite. Q1 goal: read the error message. Rating: Meets, barely.";
+const REVIEW = "Strengths: unearned confidence. Weaknesses: 'one small change' x63, each a rewrite. Q1 goal: read the error message. Rating: Meets, barely.";
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(out, { recursive: true });
